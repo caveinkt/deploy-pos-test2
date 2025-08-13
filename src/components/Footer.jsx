@@ -1,11 +1,14 @@
 import st from '../css/components/Footer.module.css'
+import PosyanduLogo from '../assets/logo.png'
+import BinusLogo from '../assets/logo-binus.png'
+import TFILogo from '../assets/TFI-logo.png'
 
 function Footer() {
   return (
     <>
       <footer className={st.footerContainer}>
         <div className={st.footerWrapper}>
-          <img src='/src/assets/logo.png' alt='Posyandu logo' />
+          <img src={PosyanduLogo} alt='Posyandu logo' />
           <div className={st.infoDisplay}>
             <ul>
               <li className={st.listTitle}>IT TEAM</li>
@@ -26,8 +29,8 @@ function Footer() {
             <ul>
               <li className={st.listTitle}>SUPPORTED BY
                 <ul className={st.supportSection}>
-                  <li><img src='/src/assets/logo-binus.png' alt='BINUS logo' /></li>
-                  <li><img src='/src/assets/TFI-logo.png' alt='TFI logo' /></li>
+                  <li><img src={BinusLogo} alt='BINUS logo' /></li>
+                  <li><img src={TFILogo} alt='TFI logo' /></li>
                 </ul>
               </li>
             </ul>
