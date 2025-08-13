@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 import StockPhoto from '../../assets/kas-foto.png';
 
+
 const articles = [
   {
     title: "Pentingnya gizi anak",
     desc: "Penuhi kebutuhan gizi sejak dini untuk tumbuh kembang optimal dan daya tahan tubuh yang kuat.",
-    image: {StockPhoto},
+    image: "/src/assets/kas-foto.png",
     link: "/informasi-kesehatan/artikel-kesehatan/pga"
   },
   {
@@ -55,7 +56,7 @@ const articles = [
   {
     title: "Mencegah penyakit umum",
     desc: "Paparan sinar matahari pagi secara cukup dan teratur sangat penting untuk membantu pembentukan vitamin D alami dalam tubuh,",
-    image: {StockPhoto},
+    image: "../../assets/kas-foto.png",
     link: "/informasi-kesehatan/artikel-kesehatan/mpu"
   },
 ];
