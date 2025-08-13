@@ -15,7 +15,7 @@ function Footer() {
               <li>Kevin Tjang</li>
               <li>Nicholas Cahyadi</li>
               <li>Novenus</li>
-              <li>Fajar</li>
+              <li>Muhammad Fajar Zaki Putra</li>
               <li>Stevia Anlena Putri</li>
             </ul>
             <ul>
