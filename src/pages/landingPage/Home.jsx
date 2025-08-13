@@ -38,23 +38,6 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className={h.faq}>
-          <div className={h.faq__container}>
-            <div className={h.faq__content}>
-              <h1 className={clsx(h.gradient_text, h.section_title)}>FAQ's</h1>
-              <div className={h.faq__inner_content}>
-                <h3>Pertanyaan yang sering diajukan:</h3>
-                <ul className={h.faq__lists}>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                  <li>Lorem Ipsum</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </>
   )
