@@ -1,60 +1,61 @@
 import ak from '../../css/landingPage/ArtikelKesehatan.module.css';
 import { Link } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
+import StockPhoto from '../../assets/kas-foto.png';
 
 const articles = [
   {
     title: "Pentingnya gizi anak",
     desc: "Penuhi kebutuhan gizi sejak dini untuk tumbuh kembang optimal dan daya tahan tubuh yang kuat.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/pga"
   },
   {
     title: "Pengaruh gula dan garam",
     desc: "Asupan gula dan garam berlebih dapat memengaruhi tumbuh kembang dan kesehatan sang buah hati.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/pgdg"
   },
   {
     title: "Panduan pembelian produk",
     desc: "Panduan memilih produk sehat yang tepat dan aman untuk tumbuh kembang sang buah hati.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/pmp"
   },
   {
     title: "Cara mengatur pola makan",
     desc: "Pola makan yang teratur adalah fondasi penting untuk pertumbuhan dan perkembangan sang buah hati.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/cmpm"
   },
   {
     title: "Nutrisi penting 4 sehat 5 sempurna",
     desc: "Nutrisi yang baik adalah fondasi utama bagi kesehatan optimal ibu dan perkembangan anak.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/np"
   },
   {
     title: "Kesehatan fisik dan mental ibu dan anak",
     desc: "Kesehatan ibu dan anak merupakan pondasi utama dalam membangun generasi yang sehat, cerdas, dan produktif",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/kfm"
   },
   {
     title: "Menjaga makanan dan waspada jajanan luar",
     desc: "Makanan adalah sumber kehidupan, namun jika tidak diolah dengan tepat, makanan juga bisa menjadi sumber masalah kesehatan.",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/mmw"
   },
   {
     title: "Manfaat berjemur di bawah sinar matahari",
     desc: "Paparan sinar matahari pagi secara cukup dan teratur sangat penting untuk membantu pembentukan vitamin D alami dalam tubuh,",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/mb"
   },
   {
     title: "Mencegah penyakit umum",
     desc: "Paparan sinar matahari pagi secara cukup dan teratur sangat penting untuk membantu pembentukan vitamin D alami dalam tubuh,",
-    image: "/src/assets/kas-foto.png",
+    image: {StockPhoto},
     link: "/informasi-kesehatan/artikel-kesehatan/mpu"
   },
 ];
